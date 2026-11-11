@@ -1,0 +1,18 @@
+[package]
+name = "overpunch-comparison"
+version = "0.0.0"
+edition = "2024"
+publish = false
+
+[dependencies]
+overpunch-rx = { path = ".." }
+overpunch = "=0.3.0"
+rust_decimal = "1.36"
+
+[[bench]]
+name = "compare"
+path = "compare.rs"
+harness = false
+
+[profile.bench]
+overflow-checks = true

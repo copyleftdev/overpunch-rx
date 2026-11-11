@@ -1,0 +1,26 @@
+[package]
+name = "overpunch-rx"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+description = "Allocation-free signed overpunch and zoned decimal codecs: ASCII/EBCDIC, exact decimals, no_std"
+repository = "https://github.com/copyleftdev/overpunch-rx"
+license = "MIT"
+readme = "README.md"
+keywords = ["overpunch", "zoned-decimal", "ebcdic", "cobol", "no-std"]
+categories = ["encoding", "no-std", "parser-implementations"]
+include = ["src/**", "tests/**", "examples/**", "docs/**", "README.md", "LICENSE", "Cargo.toml"]
+
+[lints.rust]
+unsafe_code = "forbid"
+missing_docs = "deny"
+
+[lints.clippy]
+all = { level = "warn", priority = -1 }
+pedantic = { level = "warn", priority = -1 }
+
+[profile.release]
+overflow-checks = true
+
+[profile.bench]
+overflow-checks = true

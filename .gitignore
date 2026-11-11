@@ -1,0 +1,8 @@
+/target/
+/dist/
+/benchmarks/target/
+/fuzz/target/
+/fuzz/artifacts/
+/fuzz/corpus/
+/.smesh-mcp/
+/research/

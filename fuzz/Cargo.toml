@@ -1,0 +1,22 @@
+[package]
+name = "overpunch-rx-fuzz"
+version = "0.0.0"
+edition = "2024"
+publish = false
+
+[package.metadata]
+cargo-fuzz = true
+
+[dependencies]
+libfuzzer-sys = "0.4"
+overpunch-rx = { path = ".." }
+
+[[bin]]
+name = "codec"
+path = "fuzz_targets/codec.rs"
+test = false
+doc = false
+bench = false
+
+[profile.release]
+overflow-checks = true

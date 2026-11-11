@@ -1,0 +1,15 @@
+   Compiling serde v1.0.229
+   Compiling rust_decimal v1.43.0
+   Compiling overpunch-strict v0.1.0 (/home/ops/Project/judi-ops)
+   Compiling syn v2.0.119
+   Compiling thiserror-impl v1.0.69
+   Compiling thiserror v1.0.69
+   Compiling overpunch v0.3.0
+   Compiling overpunch-comparison v0.0.0 (/home/ops/Project/judi-ops/benchmarks)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 2.00s
+     Running tests/differential.rs (/home/ops/.cargo-target/debug/deps/differential-4b9d241ef76d4856)
+
+running 1 test
+test shared_valid_ascii_domain_agrees_with_published_crate ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.10s

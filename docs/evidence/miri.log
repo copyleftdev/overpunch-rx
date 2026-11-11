@@ -1,0 +1,18 @@
+    Blocking waiting for file lock on package cache
+   Compiling overpunch-strict v0.1.0 (/home/ops/Project/judi-ops)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.12s
+     Running tests/contracts.rs (/home/ops/.cargo-target/miri/x86_64-unknown-linux-gnu/debug/deps/contracts-71b9b58bba978a3f)
+
+running 10 tests
+test errors_are_small_and_do_not_expose_record_contents ... ok
+test exact_rescaling_never_rounds ... ok
+test full_width_and_full_precision_boundaries ... ok
+test misplaced_signs_spaces_unicode_and_mixed_encodings_are_errors ... ok
+test native_and_wide_chunk_boundaries_preserve_values_and_error_offsets ... ok
+test negative_zero_is_explicit_in_both_directions ... ok
+test output_is_unchanged_for_every_error_class ... ok
+test published_pharmacy_vectors ... ok
+test schemas_reject_invalid_bounds ... ok
+test strict_signs_and_unsigned_opt_in ... ok
+
+test result: ok. 10 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 2.10s

@@ -1,0 +1,13 @@
+rustc 1.99.0 (b940084d7 2026-09-28)
+binary: rustc
+commit-hash: b940084d7eb6a299eb4bfeb8e34901bc051e7ac4
+commit-date: 2026-09-28
+host: x86_64-unknown-linux-gnu
+release: 1.99.0
+LLVM version: 23.1.1
+cargo 1.99.0 (5f94df478 2026-08-27)
+clippy 0.1.99 (b940084d7e 2026-09-28)
+miri 0.1.0 (a5c825cd82 2026-04-14)
+Linux 7.0.0-43-generic x86_64
+CPU: AMD Ryzen Threadripper PRO 5975WX 32-Cores
+Date: 2026-11-11
