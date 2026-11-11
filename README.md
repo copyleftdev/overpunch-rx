@@ -118,6 +118,9 @@ and [verification results](docs/verification.md).
 Benchmark and fuzzing tools live in separate packages. The core crate has no
 runtime or development dependencies.
 
+Maintainers can use the [release workflow](docs/releasing.md) to verify and publish
+new versions to crates.io.
+
 ## Format references
 
 Wire examples and test vectors are documented in
