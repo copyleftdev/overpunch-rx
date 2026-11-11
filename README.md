@@ -13,14 +13,25 @@ scaling. Formatting errors leave the output buffer unchanged.
 
 **Rust 1.85+ · `no_std` · Zero dependencies · No unsafe code · MIT**
 
+[crates.io](https://crates.io/crates/overpunch-rx) ·
+[API documentation](https://docs.rs/overpunch-rx/latest/overpunch_rx/)
+
 ## Getting started
 
-Add the Git dependency:
+Add the published crate to your project:
+
+```sh
+cargo add overpunch-rx@0.1.0
+```
+
+Or add it to `Cargo.toml`:
 
 ```toml
 [dependencies]
-overpunch-rx = { git = "https://github.com/copyleftdev/overpunch-rx" }
+overpunch-rx = "0.1.0"
 ```
+
+Import the crate as `overpunch_rx` in Rust:
 
 ```rust
 use overpunch_rx::{Encoding, FieldSpec, FixedDecimal};

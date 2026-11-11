@@ -32,7 +32,7 @@ Rust 1.85.0. Miri: 0.1.0 (`a5c825cd82`, 2026-04-14). Source fingerprints are in
 | AddressSanitizer / libFuzzer | 11,735,748 executions, 46 seconds, maximum input 128 bytes, no failure found |
 | Portability | `no_std` library builds for bare-metal ARM `thumbv7em-none-eabihf` and WebAssembly `wasm32-unknown-unknown` |
 | Documentation | `cargo doc --no-deps` with rustdoc warnings denied |
-| Package | Local archive builds and verifies; not published to crates.io |
+| Package | Version 0.1.0 published to [crates.io](https://crates.io/crates/overpunch-rx/0.1.0); [release workflow passed](https://github.com/copyleftdev/overpunch-rx/actions/runs/43094290628) |
 
 Fuzz executions include inputs rejected at the harness/schema boundary; the count
 does not mean every execution reached every codec branch. Miri runs the contract
